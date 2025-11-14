@@ -1,0 +1,71 @@
+.category-slot {
+  min-height: 100px;
+  border: 2px dashed #ccc;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s;
+  background: white;
+}
+
+.category-slot.empty {
+  background: #fafafa;
+}
+
+.category-slot.droppable {
+  border-color: #667eea;
+  background: #f0f4ff;
+}
+
+.category-slot.droppable:hover {
+  border-color: #764ba2;
+  background: #e8edff;
+  transform: scale(1.02);
+}
+
+.category-slot.filled {
+  border: 2px solid #4caf50;
+  background: #f1f8f4;
+  cursor: not-allowed;
+}
+
+.slot-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+}
+
+.empty-content {
+  color: #999;
+}
+
+.category-label {
+  font-size: 0.85rem;
+  font-weight: 500;
+  padding: 0 10px;
+  line-height: 1.3;
+}
+
+.filled-content i {
+  font-size: 2rem;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.filled-content .generic-icon {
+  font-size: 2rem;
+  margin-bottom: 5px;
+}
+
+.filled-content .tech-name {
+  font-size: 0.8rem;
+  color: #333;
+  font-weight: 500;
+  word-break: break-word;
+}
+

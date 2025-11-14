@@ -1,0 +1,19 @@
+.draft-screen {
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.draft-content {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 30px;
+  margin-top: 20px;
+  align-items: start;
+}
+
+@media (max-width: 1200px) {
+  .draft-content {
+    grid-template-columns: 1fr;
+  }
+}
+

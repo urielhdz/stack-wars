@@ -1,0 +1,20 @@
+.turn-indicator {
+  background: white;
+  border-radius: 12px;
+  padding: 20px 30px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.turn-content h2 {
+  font-size: 1.8rem;
+  color: #667eea;
+  margin-bottom: 5px;
+}
+
+.turn-info {
+  color: #666;
+  font-size: 1rem;
+}
+

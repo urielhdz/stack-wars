@@ -1,0 +1,60 @@
+.tech-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 15px 10px;
+  border: 2px solid #e0e0e0;
+  border-radius: 8px;
+  background: white;
+  cursor: grab;
+  transition: all 0.3s;
+  min-height: 100px;
+}
+
+.tech-card:hover:not(.picked) {
+  border-color: #667eea;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(102, 126, 234, 0.3);
+}
+
+.tech-card.no-drag:hover {
+  border-color: #667eea;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(102, 126, 234, 0.3);
+}
+
+.tech-card.picked {
+  opacity: 0.4;
+  cursor: not-allowed;
+  border-color: #ccc;
+}
+
+.tech-card.picked:hover {
+  transform: none;
+  box-shadow: none;
+}
+
+.tech-card.no-drag {
+  cursor: default;
+}
+
+.tech-card i {
+  font-size: 2.5rem;
+  margin-bottom: 8px;
+  color: #333;
+}
+
+.generic-icon {
+  font-size: 2.5rem;
+  margin-bottom: 8px;
+}
+
+.tech-name {
+  font-size: 0.85rem;
+  text-align: center;
+  color: #333;
+  font-weight: 500;
+  word-break: break-word;
+}
+

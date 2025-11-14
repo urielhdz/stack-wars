@@ -1,0 +1,40 @@
+.player-board {
+  border: 3px solid #e0e0e0;
+  border-radius: 12px;
+  padding: 15px;
+  background: #f9f9f9;
+  transition: all 0.3s;
+}
+
+.player-board.current-player {
+  border-color: #667eea;
+  background: #f0f4ff;
+  box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3);
+}
+
+.player-name {
+  font-size: 1.3rem;
+  color: #333;
+  margin-bottom: 15px;
+  text-align: center;
+  font-weight: 600;
+}
+
+.player-board.current-player .player-name {
+  color: #667eea;
+}
+
+.slots-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+
+/* Adjust for 10 categories - 2 columns, 5 rows */
+
+@media (max-width: 400px) {
+  .slots-container {
+    grid-template-columns: 1fr;
+  }
+}
+
