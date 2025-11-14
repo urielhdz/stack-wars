@@ -8,7 +8,7 @@ const getBasePath = () => {
     return process.env.VITE_BASE_PATH
   }
   // Default to '/stack-draft/' for production, '/' for development
-  return process.env.NODE_ENV === 'production' ? '/stack-draft/' : '/'
+  return process.env.NODE_ENV === 'production' ? '/stack-wars/' : '/'
 }
 
 export default defineConfig({
