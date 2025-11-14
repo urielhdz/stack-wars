@@ -129,11 +129,9 @@
   { "id": "kafka", "name": "Apache Kafka", "icon": "generic" },
   { "id": "spark", "name": "Apache Spark", "icon": "generic" },
   { "id": "flink", "name": "Apache Flink", "icon": "generic" },
-  { "id": "airflow", "name": "Apache Airflow", "icon": "generic" },
+  { "id": "airflow", "name": "Apache Airflow", "icon": "apacheairflow" },
   { "id": "dbt", "name": "dbt", "icon": "generic" },
   { "id": "beam", "name": "Apache Beam", "icon": "generic" },
-  { "id": "storm", "name": "Apache Storm", "icon": "generic" },
-  { "id": "pulsar", "name": "Apache Pulsar", "icon": "generic" },
   { "id": "rabbitmq", "name": "RabbitMQ", "icon": "devicon-rabbitmq-original" },
   { "id": "kinesis", "name": "AWS Kinesis", "icon": "generic" },
   { "id": "redshift", "name": "AWS Redshift", "icon": "generic" },
@@ -144,6 +142,8 @@
   { "id": "druid", "name": "Apache Druid", "icon": "generic" },
   { "id": "pinot", "name": "Apache Pinot", "icon": "generic" },
   { "id": "clickhouse", "name": "ClickHouse", "icon": "generic" },
-  { "id": "timescaledb", "name": "TimescaleDB", "icon": "generic" }
+  { "id": "timescaledb", "name": "TimescaleDB", "icon": "generic" },
+  { "id": "firebase", "name": "Firebase", "icon": "devicon-firebase-plain" },
+  { "id": "supabase", "name": "Supabase", "icon": "devicon-supabase-plain" }
 ]
 
