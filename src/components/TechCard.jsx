@@ -2,6 +2,7 @@ import './TechCard.css'
 
 function TechCard({ tech, onDragStart, onDragEnd }) {
   const handleDragStart = (e) => {
+    console.log('handleDragStart', e);
     if (!tech.isPicked && onDragStart) {
       onDragStart(tech)
       e.dataTransfer.effectAllowed = 'move'
@@ -19,7 +20,7 @@ function TechCard({ tech, onDragStart, onDragEnd }) {
   return (
     <div
       className={`tech-card ${tech.isPicked ? 'picked' : ''} ${!isDraggable ? 'no-drag' : ''}`}
-      draggable={isDraggable}
+      draggable={isDraggable ? 'true' : 'false'}
       onDragStart={isDraggable ? handleDragStart : undefined}
       onDragEnd={isDraggable ? handleDragEnd : undefined}
     >
